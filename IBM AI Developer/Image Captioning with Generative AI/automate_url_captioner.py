@@ -5,8 +5,8 @@ from bs4 import BeautifulSoup
 from transformers import AutoProcessor, BlipForConditionalGeneration
 
 # Load the pretrained processor and model
-processor = # fill the pretrained model
-model = # load the blip model
+processor = AutoProcessor.from_pretrained("Salesforce/blip2-opt-2.7b") # fill the pretrained model
+model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip2-opt-2.7b")# load the blip model
 
 # URL of the page to scrape
 url = "https://en.wikipedia.org/wiki/IBM"
