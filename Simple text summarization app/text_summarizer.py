@@ -18,7 +18,7 @@ from langchain.chains.summarize import load_summarize_chain
 import gradio as gr
 
 
-os.environ["HUGGINGFACEHUB_API_TOKEN"] = "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"
+os.environ["HUGGINGFACEHUB_API_TOKEN"] = " "
 model_id = "tiiuae/falcon-7b-instruct"
 
 llm_hub = HuggingFaceHub(repo_id=model_id, model_kwargs={"temperature": 0.1, "max_new_tokens": 300, "max_length": 600})
