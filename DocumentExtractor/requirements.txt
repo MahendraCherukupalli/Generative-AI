@@ -1,0 +1,12 @@
+streamlit==1.31.0
+python-dotenv==1.0.1
+faiss-cpu==1.7.4
+llama-index-core
+llama-index-vector-stores-faiss
+llama-index-embeddings-google-genai
+llama-index-llms-google-genai
+llama-index-readers-file
+numpy==1.24.3
+docx2txt
+PyMuPDF==1.24.9
+
